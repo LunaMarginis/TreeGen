@@ -3,9 +3,15 @@
 
 
 
-#Pre Requisites:
+# Pre Requisites:
 
-Python Libraries Used:
+🔸Python Version: python 3.x
+
+🔸Install all dependencies from the requirements.txt file. 
+
+    pip install -r requirements.txt
+
+🔸Python Libraries Used:
 1) pyattck
 2) pyvis
 3) threading
@@ -13,12 +19,11 @@ Python Libraries Used:
 5) requests
 6) json
    
-File (Input):
-
+🔸File (Input):
 json format file (create/customize using MITRE Navigator)
 
 
-#How to Run?
+# How to Run?
 
 Step 1) Map your TTP's using MITRE Navigator : https://mitre-attack.github.io/attack-navigator/
 
