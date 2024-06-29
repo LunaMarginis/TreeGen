@@ -19,7 +19,7 @@ def main():
     parser = argparse.ArgumentParser(description="TreeGen - Attack Tree Generator")
     parser.add_argument('-f', '--file', metavar='FILE', type=str, required=True,
                         help='JSON file to read')
-    parser.add_argument('--version', action='version', version='%(prog)s 1.1',
+    parser.add_argument('--version', action='version', version='%(prog)s v1.1',
                         help='Show program\'s version number and exit')
                         
     args = parser.parse_args()
