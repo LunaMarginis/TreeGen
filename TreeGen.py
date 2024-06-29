@@ -175,9 +175,7 @@ def main():
     
             net.add_node(technique_id, label=technique_id, color='#F55', size=15, mass=10)
             net.add_node(tname, label=tname,physics=True, color='#8fce00', level=1, mass=5, size=9)
-            net.add_node(comment, label=comment,physics=True, color='#6a329f', level=1, mass=3, size=5)
             net.add_edge(technique_id,tname)
-            net.add_edge(tname, comment)
             net.add_edge('comment',tacticlist[0],width=3, arrows='comment')
             keyslist = list(tactdict.keys())
             for key in range(len(keyslist)-1):
